@@ -8,7 +8,7 @@ const { default: helmet } = require('helmet');
 const app = express();
 const httpServer = http.Server(app);
 
-const port = 4000;
+const port = 3000;
 
 app.set('port', port);
 
