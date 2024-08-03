@@ -1,0 +1,32 @@
+{
+    "general": {
+      "name": "Enigmatic Epoch",
+      "defaults": {
+        "width": 80,
+        "height": 15,
+  
+        "fillStyle": "#65737e",
+        "strokeStyle": "#343d46",
+  
+        "colorFill": "#343d46",
+        "colorAlpha": 0.3,
+        "areaType": "linear"
+      }
+    },
+    "areas": {
+      "1": {
+        "defaults": {
+          "areaType": "transition"
+        },
+        "enemies": [{ "radius": 80, "count": 20, "speed": 5, "type": "normal" }]
+      },
+      "2": {
+        "defaults": {
+          "areaType": "victory",
+          "message": ["You are trolled!", "", ""]
+        },
+        "enemies": []
+      }
+    }
+  }
+  

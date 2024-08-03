@@ -1,0 +1,31 @@
+{
+    "general": {
+      "name": "Misty Moonlight",
+      "defaults": {
+        "width": 80,
+        "height": 15,
+  
+        "fillStyle": "#606086",
+        "strokeStyle": "#404059",
+  
+        "colorFill": "#000033",
+        "colorAlpha": 0.3,
+        "areaType": "linear"
+      }
+    },
+    "areas": {
+      "1": {
+        "defaults": {
+          "areaType": "transition"
+        },
+        "enemies": [
+          { "radius": 15, "count": 5, "speed": 5, "type": "shutter" },
+          { "radius": 15, "count": 5, "speed": 5, "type": "homing" }
+        ]
+      },
+      "2": {
+        "enemies": [{ "radius": 50, "count": 4, "speed": 17, "type": "normal" }]
+      }
+    }
+  }
+  

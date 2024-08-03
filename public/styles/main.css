@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #6d6d6d;
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  * {
+    scrollbar-width: thin;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #6d6d6d;
+    border-radius: 2px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  /* ClickButton:hover */
+  
+  .guest:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .login:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .register:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .changelog:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .profiles:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .settings:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .play:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .logout:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  .hat:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    background-color: #696969;
+  }
+  
+  /* SilkiA */
+  
+  .discord:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+  }
+  
+  .youtube:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+  
+  .magmax:hover {
+    text-decoration: underline;
+    text-decoration-color: #ff5454;
+    background-color: #4f0014;
+  }
+  
+  canvas {
+    position: absolute;
+    transform: scale(1);
+  }
+  

@@ -1,0 +1,244 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #57544f;
+    /* Задний фон */
+    font-family: Verdana, Arial, Times, serif;
+    /* Шрифты текста */
+    overflow: hidden;
+    /* Убираем прокрутку на странице */
+  }
+  
+  /* HomeDiv */
+  
+  .Home {
+    text-align: center;
+    margin-right: 150px;
+  }
+  
+  .title {
+    font-size: 80px;
+    margin-top: -15px;
+  }
+  
+  .beta {
+    font-size: 90px;
+    margin-top: -20px;
+  }
+  
+  .registration {
+    font-size: 60px;
+    margin-top: -5px;
+  }
+  
+  .selecthero {
+    text-align: center;
+    font-size: 60px;
+    margin-top: -10px;
+  }
+  
+  /* InputFormDiv */
+  
+  .input {
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 20px;
+  }
+  
+  input[type='text'] {
+    background-color: darkgray;
+    font-size: 17px;
+    margin-bottom: 3px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 315px;
+  }
+  
+  input[type='password'] {
+    background-color: darkgray;
+    font-size: 17px;
+    margin-bottom: 3px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 315px;
+  }
+  
+  /* menu */
+  
+  .Register {
+    text-align: center;
+    margin-right: 150px;
+  }
+  
+  .information {
+    text-align: start;
+    margin-top: 230px;
+    margin-left: 1px;
+    bottom: 5px;
+    position: fixed;
+  }
+  
+  .lobbygame {
+    text-align: center;
+    margin-right: 150px;
+    margin-top: 70px;
+  }
+  
+  .guest {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: gray;
+    /* Цвет gray в #808080 */
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .changelog {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 30px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profiles {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 30px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .settings {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 30px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play {
+    font-size: 50px;
+    margin: 1px;
+    padding: 30px 76px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hat {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop {
+    font-size: 15px;
+    margin: 1px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: #ffffff;
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* LinksA  */
+  
+  .links {
+    text-align: start;
+    margin-top: -380px;
+    margin-left: 5px;
+    position: fixed;
+    bottom: 650px;
+  }
+  
+  /* CharacterList */
+  
+  .character {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 4px;
+    width: 250px;
+    height: 160px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .characterlist {
+    text-align: center;
+    margin-right: 600px;
+  }
+  
+  /* GameContainer */
+  
+  #GameContainer {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  

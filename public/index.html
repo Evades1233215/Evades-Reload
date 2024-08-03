@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="1233215" />
+    <meta
+      name="description"
+      content="Evades Reload Игра там где нужно уворачиватся от шариков и проходить арены и получать новых  героев"
+    />
+    <meta name="keywords" content="Evades, Игра, Тест" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="styles/settings.css" rel="stylesheet" type="text/css" />
+    <link href="styles/сhangelog.css" rel="stylesheet" type="text/css" />
+    <link href="styles/chat.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="assets/avatar.png" type="image/x-icon" />
+    <title>Evades Reload</title>
+  </head>
+
+  <body>
+    <div class="container" id="lobbyContainer">
+      <div class="Home" id="HomeDiv">
+        <h1 class="title" id="TitleH1">Evades Reload</h1>
+        <h1 class="beta" id="BetaH1">Beta Test</h1>
+        <h1 class="registration" id="RegisterH1">Registration</h1>
+        <h1 class="selecthero" id="SelectHeroH1" style="display: none">Select Your Hero</h1>
+      </div>
+
+      <div class="input" id="InputFormDiv">
+        <form class="inputform" id="InputForm">
+          <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            required
+            class="username"
+            id="UsernameInput"
+          /><br />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+            class="password"
+            id="PasswordInput"
+          /><br />
+        </form>
+      </div>
+
+      <div class="menu" id="MenuButton">
+        <div class="Register" id="RegisterButton">
+          <button class="guest" id="GuestButton">Play As Guest</button>
+          <button class="login" id="LoginButton" type="submit">Login</button>
+          <button class="register" id="RegisterButton" type="submit">Register</button>
+        </div>
+
+        <div class="information" id="InformationButton">
+          <button class="changelog" id="ChangeLogButton">ChangeLog</button>
+          <button class="profiles" id="ProfilesButton" style="display: none">Profiles</button>
+          <button class="settings" id="SettingsButton">Settings</button>
+        </div>
+
+        <div id="changelogModal" class="modal">
+          <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h1 class="change">Changelog</h1>
+            <br />
+
+            <h2>02/08/24</h2>
+            <h3>Глобальное Обновление Evades Reload Релиз 1.7:</h3><br>
+
+            <h4>Добавлено</h4>
+
+            <ul>
+              <li>Был добавлен чат</li>
+              <li>Была добавлена мана ( 300 ) ( Но её еще негде тратить )</li>
+            </ul>
+
+            <h5>Карты</h5>
+            <ul>
+              <li>Новая карта: Misty Moonlight ( 2 Арены )</li>
+              <li>Новая карта: Enigmatic Epoch ( 1 Арена с Victory )</li>
+            </ul>
+
+            <h5>Враги</h5>
+            <ul>
+              <li>Добавлен Враг: Normal ( Обычные )</li>
+              <li>Добавлен Враг: Dasher ( Резко двигаются и замирают )</li>
+              <li>Добавлен Враг: Homming ( Пчелы )</li>
+            </ul>
+
+            <h4>Переделано</h4>
+            <ul>
+              <li>Переделан выбор персонажа</li>
+              <li>Переделано управление мышкой</li>
+            </ul>
+
+            <h4>Убрано</h4>
+            <ul>
+              <li>Таймер Смерти ( Вы умераете бесконечно теперь )</li>
+              <li>Таймер игры</li>
+            </ul>
+            
+
+            <h1>------------------------------------------------------------------------------</h1>
+
+            <h2>25.07.24</h2>
+            <h3>Обновление Evades Reload Официальный Релиз игры 1.6:</h3>
+            <ul>
+              <li>Был добавлен мультиплеер</li>
+              <li>Игра теперь доступна всегда</li>
+            </ul>
+
+            <h1>------------------------------------------------------------------------------</h1>
+
+            <h2>16.07.24</h2>
+            <h3>Маленькое Обновление Evades Reload Бета 1.5:</h3>
+            <br />
+            <ul>
+              <li>Добавилась новая иконка сайта</li>
+              <li>Убран баг связаный со ChangeLog</li>
+              <li>Добавили Settings но там ничего неработает</li>
+            </ul>
+
+            <h1>------------------------------------------------------------------------------</h1>
+
+            <h2>16.07.24</h2>
+            <h3>Большое Обновление Evades Reload Бета 1.4:</h3>
+            <br />
+
+            <h4>Изменения Игрока</h4>
+            <ul>
+              <li>Добавили Таймер смерти</li>
+              <li>Таймер смерти длится 60 Секунд</li>
+              <li>После смерти вас перебрасывает на меню регистра</li>
+              <li>Добавили таймер игры</li>
+              <li>Был убран рес</li>
+              <br />
+            </ul>
+
+            <h4>Изменения Меню</h4>
+            <ul>
+              <li>Теперь ваш ник который вы записали в панель регистра отразится в игре</li>
+              <br />
+            </ul>
+
+            <h4>Изменения врагов</h4>
+            <ul>
+              <li>Враги больше не спавнятся в одном месте</li>
+              <li>Враги имеют разные размеры</li>
+              <li>Врагов теперь 35 На арене</li>
+            </ul>
+
+            <h1>------------------------------------------------------------------------------</h1>
+
+            <h2>15.07.24</h2>
+            <h3>Маленькое Обновление Evades Reload Бета 1.3:</h3>
+            <br />
+            <ul>
+              <li>
+                Наконец то (спустя пол года) Был добавлен ChangeLog (нажмите на кнопку что бы
+                посмотреть!
+              </li>
+              <li>Вернули Выбор персонажа</li>
+              <li>Шаров стало меньше на арене (60)</li>
+              <li>Добавлен тёмный оттенок к выбору персонажа</li>
+              <li>
+                Было изменено возрождение (теперь вы возрождаетесь на месте а не тепэхаетесь!)
+              </li>
+            </ul>
+
+            <h1>------------------------------------------------------------------------------</h1>
+
+            <h2>15.07.24</h2>
+            <h3>Обновление Evades Reload Бета 1.2:</h3>
+            <br />
+
+            <h4>Изменения Арены</h4>
+            <ul>
+              <li>Была изменена Ширина и Высота арены</li>
+              <li>Были изменены враги Они теперь быстрее И их больше</li>
+              <li>Были изменены Сейф Зоны</li>
+              <li>Теперь ваш Ник "Игрок"</li>
+              <br />
+            </ul>
+            <h4>Изменение игры</h4>
+            <br />
+            <ul>
+              <li>Были убраны кнопки: Profiles, Hat Для дальнейших изменений</li>
+            </ul>
+
+            <h1>------------------------------------------------------------------------------</h1>
+
+            <h2>14.07.24</h2>
+            <h3>Малюсенькое Второе Обновление За День Evades Reload Бета1.1:</h3>
+            <br />
+
+            <ul>
+              <li>Добавилось Возрождение</li>
+              <li>При нажатии кнопки R вы возрождаетесь</li>
+            </ul>
+
+            <h1>------------------------------------------------------------------------------</h1>
+
+            <h2>14.07.24</h2>
+            <h3>Затянутое Большое Обновление Evades Reload Бета 1.0:</h3>
+            <br />
+            <ul>
+              <li>Добавлены Тёмные оттенки на кнопках когда наводишь на них мышку</li>
+              <li>Добавлена иконка сайта ( Хуёвая )</li>
+              <li>Добавлена арена с врагами ( normal их там 50 )</li>
+              <li>Добавлены сейф зоны ( в начале и в конце )</li>
+              <li>Добавлен герой на арене которым можно управлять</li>
+              <li>Добавлен ник ( Guest )</li>
+              <li>Убран выбор персонажа ( Из за ошибки )</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lobbygame" id="LobbyGame" style="display: none">
+          <div class="lobbyMenu" id="LobbyGameContainer">
+            <button class="play" id="PlayButton">Play</button><br />
+            <button class="hat" id="HatButton" style="display: none">Hat</button>
+            <button class="logout" id="LogOutButton">Logout</button>
+            <button class="shop" id="ShopButton" style="display: none">Shop</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="links" id="LinksA">
+        <a class="discord" id="discordA" href="https://discord.gg/Br4hJ8SvBv">
+          <img src="assets/discord.4ef0ef6e.png" width="48px" height="48px" />
+        </a>
+        <a
+          class="youtube"
+          id="youtubeA"
+          href="https://www.youtube.com/channel/UCzMVADOSvmFQtS_M-s0wJrQ"
+        >
+          <img src="assets/YouTube.png" width="78px" height="48px" />
+        </a>
+      </div>
+
+      <div id="CharacterList">
+        <div class="characterlist" id="CharacterList" style="display: none"></div>
+      </div>
+
+      <div class="settings-div" id="settingsModal">
+        <span class="close" id="closeModal_esc">&times;</span>
+        <h1>Settings</h1>
+        <div class="settings-element">
+          <label class="checkbox-google">
+            <input type="checkbox" id="stiles" />
+            <span class="checkbox-google-switch"></span>
+          </label>
+          Tiles
+        </div>
+        <div class="settings-element">
+          <label class="checkbox-google">
+            <input type="checkbox" id="semm" />
+            <span class="checkbox-google-switch"></span>
+          </label>
+          Enable Mouse Movement
+        </div>
+        <div class="settings-element">
+          <label class="checkbox-google">
+            <input type="checkbox" id="smtm" />
+            <span class="checkbox-google-switch"></span>
+          </label>
+          Mouse Toggle Movement
+        </div>
+      </div>
+
+      <div class="gamecontainer" id="GameContainer" style="display: none">
+        <canvas id="canvas"> </canvas>
+        <div class="chat">
+          <div class="chat-container"></div>
+          <input placeholder="It's only beta test." maxlength="4800" type="text" id="chat-input" />
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="scripts/script"></script>
+  </body>
+</html>
